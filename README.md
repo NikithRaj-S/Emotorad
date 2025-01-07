@@ -41,10 +41,10 @@ The project uses a Contact table with the following schema:
 2. Configure MySQL Database
 Update the application.properties file with your MySQL credentials
 ```
-spring.application.name=backend
+spring.application.name=backendtask
 spring.datasource.url=jdbc:mysql://localhost:3306/userlinkin?createDatabaseIfNotExist=true
-spring.datasource.username=Your username
-spring.datasource.password=Your password
+spring.datasource.username=root
+spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 server.port=1234
